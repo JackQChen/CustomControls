@@ -65,8 +65,6 @@ namespace WindowsFormsApplication1
 
         private void button5_Click(object sender, EventArgs e)
         {
-            this.BackgroundImage = null;
-            this.BackColor = new Bitmap(this.pictureBox1.Image).GetPixel(clickX + unitWidth / 2, unitWidth / 2);
         }
 
         int colorX = 0, unitWidth = 0;
@@ -92,6 +90,8 @@ namespace WindowsFormsApplication1
         {
             clickX = colorX;
             this.pictureBox1.Invalidate();
+            this.BackgroundImage = null;
+            this.BackColor = new Bitmap(this.pictureBox1.Image).GetPixel(clickX + unitWidth / 2, unitWidth / 2);
         }
 
         private void button4_Click(object sender, EventArgs e)

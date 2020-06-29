@@ -139,26 +139,26 @@
             this.toolStripMenuItem2,
             this.清空内容ToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(119, 104);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(125, 104);
             // 
             // 复制CToolStripMenuItem
             // 
             this.复制CToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.复制CToolStripMenuItem.Name = "复制CToolStripMenuItem";
-            this.复制CToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.复制CToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.复制CToolStripMenuItem.Text = "复制(&C)";
             // 
             // 粘贴VToolStripMenuItem
             // 
             this.粘贴VToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.粘贴VToolStripMenuItem.Name = "粘贴VToolStripMenuItem";
-            this.粘贴VToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.粘贴VToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.粘贴VToolStripMenuItem.Text = "粘贴(&V)";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(115, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(121, 6);
             // 
             // 设置SToolStripMenuItem
             // 
@@ -169,42 +169,42 @@
             this.默认样式ToolStripMenuItem});
             this.设置SToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.设置SToolStripMenuItem.Name = "设置SToolStripMenuItem";
-            this.设置SToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.设置SToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.设置SToolStripMenuItem.Text = "设置(&S)";
             // 
             // 字体ToolStripMenuItem
             // 
             this.字体ToolStripMenuItem.Name = "字体ToolStripMenuItem";
-            this.字体ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.字体ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.字体ToolStripMenuItem.Text = "字体";
             // 
             // 颜色ToolStripMenuItem
             // 
             this.颜色ToolStripMenuItem.Name = "颜色ToolStripMenuItem";
-            this.颜色ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.颜色ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.颜色ToolStripMenuItem.Text = "颜色";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(115, 6);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(121, 6);
             // 
             // 默认样式ToolStripMenuItem
             // 
             this.默认样式ToolStripMenuItem.Name = "默认样式ToolStripMenuItem";
-            this.默认样式ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.默认样式ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.默认样式ToolStripMenuItem.Text = "默认样式";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(115, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(121, 6);
             // 
             // 清空内容ToolStripMenuItem
             // 
             this.清空内容ToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.清空内容ToolStripMenuItem.Name = "清空内容ToolStripMenuItem";
-            this.清空内容ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.清空内容ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.清空内容ToolStripMenuItem.Text = "清空内容";
             // 
             // checkBox2
@@ -235,7 +235,7 @@
             // 
             this.checkBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.checkBox3.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox3.Checked = false;
+            this.checkBox3.Checked = true;
             this.checkBox3.FocusBorder = false;
             this.checkBox3.Location = new System.Drawing.Point(672, 422);
             this.checkBox3.Name = "checkBox3";
@@ -261,11 +261,13 @@
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.ContextMenuStrip = this.contextMenuStrip1;
+            this.textBox1.Font = new System.Drawing.Font("新宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox1.Location = new System.Drawing.Point(62, 212);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(365, 133);
             this.textBox1.TabIndex = 11;
+            this.textBox1.Text = "右键菜单";
             this.textBox1.WatermarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.textBox1.WatermarkText = null;
             // 
@@ -273,11 +275,11 @@
             // 
             this.progressBar2.BackColor = System.Drawing.Color.Transparent;
             this.progressBar2.FocusBorder = false;
-            this.progressBar2.Location = new System.Drawing.Point(266, 183);
+            this.progressBar2.Location = new System.Drawing.Point(266, 165);
             this.progressBar2.Maximum = 100;
             this.progressBar2.Minimum = 0;
             this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(161, 23);
+            this.progressBar2.Size = new System.Drawing.Size(161, 13);
             this.progressBar2.TabIndex = 7;
             this.progressBar2.Value = 0;
             // 
@@ -304,9 +306,9 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
+            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
             // 
             // button6
             // 
